@@ -1,0 +1,179 @@
+body {
+  font-family: "Montserrat", sans-serif; /* Mantive a fonte Montserrat */
+  line-height: 1.7;
+  padding: 20px;
+  background-color: #a7bfc4; /* Um tom de verde neutro e suave para tranquilidade */
+  color: #333; /* Cinza escuro para boa legibilidade */
+}
+
+header {
+  background-color: #2972c4; /* Azul claro suave para uma sensação acolhedora */
+  color: #343363;
+  padding: 2em 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header h1 {
+  font-size: 2.8em; /* Ajustei o tamanho da fonte */
+  margin-bottom: 0.5em; /* Ajustei a margem inferior */
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+header p.autoria {
+  font-size: 1.1em;
+  color: #1c150d; /* Mantive um tom de azul claro */
+  margin-bottom: 1em; /* Ajustei a margem inferior */
+  font-style: italic;
+}
+
+nav {
+  background-color: #fff; /* Branco para um contraste limpo */
+  padding: 1em 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #e0e0e0; /* Linha sutil para separação */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5em;
+  justify-content: flex-start; /* Alinhei os links à esquerda */
+}
+
+nav a {
+  color: #242121; /* Cinza médio para os links */
+  text-decoration: none;
+  padding: 0.6em 1.2em;
+  border-radius: 4px;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #0614d1; /* Azul vibrante para atenção ao passar o mouse */
+}
+
+main {
+  padding: 3em 20px;
+  background-color: #fff; /* Branco para o conteúdo principal */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3em;
+}
+
+section {
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #eee; /* Linha sutil para separar as seções */
+}
+
+section:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+section h2 {
+  color: #2c3e50; /* Azul escuro para os títulos das seções */
+  border-bottom: 3px solid #00aaff; /* Azul vibrante para destacar o título */
+  padding-bottom: 0.5em;
+  margin-top: 0;
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5em;
+}
+
+section article {
+  margin-bottom: 2em;
+}
+
+section article:last-child {
+  margin-bottom: 0;
+}
+
+section h3 {
+  color: #007bff; /* Azul vibrante para subtítulos */
+  font-size: 1.6em;
+  margin-bottom: 0.75em;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+section p {
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 1.2em;
+  font-size: 1.1em;
+}
+
+ol {
+  list-style: decimal;
+  padding-left: 2em;
+  margin-left: 0;
+}
+
+ol li {
+  margin-bottom: 1.5em;
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.7;
+}
+
+ol li h3 {
+  font-size: 1.2em;
+  color: #00aaff; /* Azul claro para títulos de itens da lista */
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+ol li p {
+  margin-bottom: 1em;
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.7;
+}
+
+ol li ul {
+  list-style: disc;
+  padding-left: 1.5em;
+  margin-top: 0.5em;
+}
+
+ol li ul li {
+  margin-bottom: 0.8em;
+  font-size: 1em;
+  color: #666;
+  line-height: 1.7;
+}
+
+.imagem-destaque {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.imagem-destaque img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 2em 20px;
+  margin-top: 4em;
+  background-color: #f9f9f9; /* Cinza bem claro para o rodapé */
+  color: #777;
+  border-top: 1px solid #eee;
+}
